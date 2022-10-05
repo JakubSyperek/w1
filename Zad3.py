@@ -1,5 +1,10 @@
-def ile_ujemnych(lista):
-    if(lista>0):
-        print(lista)
+lista = [1,2,-3,4,-5]
 
-ile_ujemnych([1,2,3])
+def ile_ujemnych(lista):
+    count = 0
+    for x in lista:
+        if(x>0):
+            count += 1
+    return count
+
+print(ile_ujemnych(lista))
