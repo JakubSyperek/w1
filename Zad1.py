@@ -31,3 +31,5 @@ for x in range(0,2,1):
     for x in range(0,5):
         lista6.append(x)
 print(lista6)
+
+
